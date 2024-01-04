@@ -1,0 +1,44 @@
+.footer-container {
+    background-color: black;
+    color: #ccc; 
+    padding: 0px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left:0;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .keywords {
+    margin-top: 5px;
+  }
+  
+  .keywords span {
+    margin: 0 10px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ffd700;
+  }
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 24px;
+  color:red;
+  text-decoration: none;
+}
+
+/* Hover effect */
+.social-icons a:hover {
+  color: #007bff; /* Change color on hover */
+}
