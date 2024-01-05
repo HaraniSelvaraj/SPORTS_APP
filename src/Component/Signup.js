@@ -22,18 +22,13 @@ function Signup()
         <label for="number">Mobile Number:</label>
         <input type="number" id="number" name="number" required/>
     
-        <input type="submit" value="Register"/>
-
+        <input type="submit" value="Register"></input>
+        <button type="submit"><Link to="/Login">LOGIN</Link>
+               
+            </button>
         
         
 </form>
-<p>
-    <h3>
-        Already have an account?{' '}
-        <Link to="/Home">Login</Link>
-    </h3>
-</p>
-
     </div>
     
     )

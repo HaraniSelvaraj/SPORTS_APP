@@ -10,20 +10,21 @@ const Login=()=>
             
         
         <form class="container">
-            <h1>Login</h1>
+            <h2>LOGIN</h2>
+            
             <label for="username">USERNAME</label>
             <input type="text" id="username" name="username" required placeholder="Enter your name"/>
 
             <label for="password">PASSWORD</label>
             <input type="password" id="password" name="password" required placeholder="Enter your password"/>
-            <button type="submit">
+            <button type="submit"><Link to="/Home"></Link>
                 Submit
             </button>
-
-
+            <button type="submit"><Link to="/">LOGIN</Link>
+               
+            </button>
         </form>
-            <h4>Don't have an account? {' '}
-            <Link to ="/Signup">Sign up</Link></h4>
+            
     </div>
     
     );

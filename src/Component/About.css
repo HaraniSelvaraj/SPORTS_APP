@@ -1,23 +1,69 @@
-.about-page {
-    
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  h1{
-    color: red;
-  }
-  p{
+body{
+  margin-top:30%;
+}
+.Main-heading
+{
+    font-size:60px;
+    font-weight: bold;
     color:black;
-  }
-  .about-page h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .about-page p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: 15px;
-  }
-  
+    text-align: center;
+}
+.image-container 
+{
+    background-image: url("https://pbs.twimg.com/media/FztVc0eX0AEXjyM?format=jpg&name=4096x4096");
+    height:700px;
+    width:700px;
+}
+.card-heading 
+{
+    color:crimson;
+    font-style: oblique;
+    font-size: 30px;
+    text-align: center;
+}
+.para
+{
+    text-align: center;
+    font-size: 25px;
+    padding-right:30px;
+    color:#3C4142;
+    font-style:unset;
+}
+.card-container
+{
+    margin-top:50px;
+}
+
+.events-heading
+{
+    color:blue;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+}
+.para1 
+{
+   font-size: 35px;
+   text-align: center;
+   font-weight: bold;
+}
+.description
+{
+    font-size: 20px;
+    text-align: center;
+
+}
+.flex 
+
+{
+    display: flex;
+}
+.img-card 
+{
+    height:200px;
+    width:200px;
+}
+.welocme-container 
+{
+    margin-bottom: 60px;
+}

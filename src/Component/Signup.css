@@ -66,13 +66,27 @@ input[type="submit"] {
     color: white;
     cursor: pointer;
 }
+button[type="submit"] {
+    font-family:'Lobster', cursive;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color:gray;
+    color: white;
+    cursor: pointer;
+   
+}
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+
+}
 
 input[type="submit"]:hover {
-    background-color:#917b96;
-}
-h3
-{
-    padding-top: 40px;
-    top: 10px;
-    bottom: 1000px;
+    background-color:green;
 }
